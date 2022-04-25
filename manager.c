@@ -62,11 +62,10 @@ fp=fopen("product.txt","rt");
  fscanf(fp,"%d",&p[i].price);
  }
  fclose(fp);
-}
 
 
 
 
 	printf("=> 로딩 성공!\n");
-	return count;
+	return i;
 }
